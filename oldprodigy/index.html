@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Prodigy Versions</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Dark background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #e2e8f0; /* Light text color */
+        }
+        .container {
+            background-color: #2d3748; /* Slightly lighter dark background for container */
+            padding: 2rem;
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 90%;
+            width: 500px; /* Max width for larger screens */
+        }
+        .btn {
+            display: block; /* Make buttons block level for full width */
+            width: 100%;
+            margin-bottom: 1rem; /* Space between buttons */
+            padding: 0.8rem 1.5rem;
+            border-radius: 0.75rem; /* Rounded corners for buttons */
+            font-weight: 600;
+            text-decoration: none;
+            color: #ffffff;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .btn-blue {
+            background-color: #4299e1; /* Blue for primary action */
+        }
+        .btn-blue:hover {
+            background-color: #3182ce;
+            transform: translateY(-2px);
+        }
+        .btn-purple {
+            background-color: #805ad5; /* Purple for secondary action */
+        }
+        .btn-purple:hover {
+            background-color: #6b46c1;
+            transform: translateY(-2px);
+        }
+        .btn-green {
+            background-color: #48bb78; /* Green for insider program */
+        }
+        .btn-green:hover {
+            background-color: #38a169;
+            transform: translateY(-2px);
+        }
+        h1 {
+            color: #90cdf4; /* Lighter blue for heading */
+            margin-bottom: 1.5rem;
+        }
+        .version-list {
+            margin-bottom: 1.5rem;
+            color: #cbd5e0; /* Lighter text for list */
+        }
+        .version-item {
+            display: block;
+            padding: 0.5rem;
+            background-color: #4a5568; /* Slightly darker background for version items */
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            text-decoration: none;
+            color: #90cdf4; /* Blue color for version links */
+            transition: background-color 0.2s ease;
+        }
+        .version-item:hover {
+            background-color: #2d3748;
+        }
+        .coming-soon {
+            color: #a0aec0; /* Grayish text for coming soon message */
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-3xl font-bold mb-6">Old Prodigy Versions</h1>
+        
+        <h2 class="text-2xl font-semibold mb-4 text-left">Vanilla Old Prodigy Versions:</h2>
+        <div class="version-list">
+            <a href="https://daboss7173.github.io/oldprodigy/1-10-0/" class="version-item">1.10.0</a>
+            <a href="https://daboss7173.github.io/oldprodigy/1-11-0/" class="version-item">1.11.0</a>
+            <a href="https://daboss7173.github.io/oldprodigy/1-50-0/" class="version-item">1.50.0</a>
+        </div>
+        <p class="coming-soon">More versions are coming soon!</p>
+        
+        <a href="https://toonbysbarry.github.io/oldprodigy/mods.html" class="btn btn-blue">
+            Mods
+        </a>
+        
+        <a href="https://toonbysbarry.github.io/oldprodigy/definitive-editions.html" class="btn btn-purple">
+            Definitive Edition
+        </a>
+
+        <!-- Back button to return to the homepage -->
+        <a href="https://toonbysbarry.github.io/oldprodigy/index.html" class="btn btn-green mt-4">
+            Back to Homepage
+        </a>
+    </div>
+</body>
+</html>
